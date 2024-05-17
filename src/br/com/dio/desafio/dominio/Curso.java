@@ -23,7 +23,7 @@ public class Curso extends Conteudo{
     public int getCargaHoraria(){return this.cargaHoraria;}
 
     public String toString(){
-        return "Curso { " +
+        return "\nCurso { " +
                 "Título=" + this.getTitulo() +
                 ", Descrição=" + this.getDescricao() +
                 ", Carga_Horária=" + this.getCargaHoraria() +

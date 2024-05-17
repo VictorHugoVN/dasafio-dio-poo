@@ -51,6 +51,10 @@ public class Bootcamp {
         this.conteudos = conteudosInscritos;
     }
 
+    public Set<Conteudo> getConteudos(){
+        return this.conteudos;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
